@@ -23,7 +23,7 @@ Most meeting tools just *summarize*. **On My Plate** goes further — after ever
 No server and no code to run — SitRep runs the agent directly from the prompt.
 
 ## The agent
-This is a **no-code (Managed) agent**: its entire behavior is defined by one carefully engineered system prompt — [`prompt_strong_model.txt`](prompt_strong_model.txt).
+This is a **no-code (Managed) agent**: its entire behavior is defined by one carefully engineered system prompt — [`prompt.txt`](prompt.txt).
 
 Prompt-design highlights:
 - Precise definitions to prevent common errors (owner vs. decision, unowned vs. absent)
