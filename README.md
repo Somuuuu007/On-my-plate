@@ -4,6 +4,8 @@
 
 Built for the [SitRep AI Hackathon](https://www.joinsitrep.com/hackathon) · No-Code track.
 
+📄 **[Read the full writeup →](WRITEUP.md)**
+
 ## What it does
 Most meeting tools just *summarize*. **On My Plate** goes further — after every meeting it produces a per-person accountability report:
 
@@ -21,7 +23,7 @@ Most meeting tools just *summarize*. **On My Plate** goes further — after ever
 No server and no code to run — SitRep runs the agent directly from the prompt.
 
 ## The agent
-This is a **no-code (Managed) agent**: its entire behavior is defined by one carefully engineered system prompt — [`prompt.txt`](prompt.txt).
+This is a **no-code (Managed) agent**: its entire behavior is defined by one carefully engineered system prompt — [`prompt_strong_model.txt`](prompt_strong_model.txt).
 
 Prompt-design highlights:
 - Precise definitions to prevent common errors (owner vs. decision, unowned vs. absent)
@@ -30,11 +32,7 @@ Prompt-design highlights:
 - Tuned to run reliably on a lightweight model
 
 ## Try it
-Install from the SitRep Marketplace: **[On My Plate](MARKETPLACE_URL_HERE)**
-
-## Repo contents
-- `prompt.txt` — the agent's system prompt (this *is* the whole agent)
-- `test-meetings.md`, `stress-tests.md` — test cases used to validate it
+Install from the SitRep Marketplace: **[On My Plate](https://app.joinsitrep.com/dashboard/marketplace/on-my-plate--d7111ee5-6503-4eac-9bc6-126935907840)**
 
 ## License
 [MIT](LICENSE)
